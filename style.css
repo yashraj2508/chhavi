@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.bg-image {
+  background: url("image/yash2.jpeg") center/contain no-repeat;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  animation: slideBackground 15s ease-in-out infinite;
+}
+
+@keyframes slideBackground {
+  0% {
+    background-image: url('image/yash1.jpeg');
+    /* background-color: red; */
+  }
+  10% {
+    background-image: url('image/yash3.jpeg');
+    /* background-color: yellow; */
+  }
+  20% {
+    background-image: url('image/yash4.jpeg');
+    /* background-color: green; */
+  }
+  30% {
+    background-image: url('image/yash5.jpeg');
+    /* background-color: blue; */
+  }
+  40% {
+    background-image: url('image/yash6.jpeg');
+    /* background-color: white; */
+  }
+  50% {
+    background-image: url('image/yash7.jpeg');
+    /* background-color: white; */
+  }
+  60% {
+    background-image: url('image/yash8.jpeg');
+    /* background-color: white; */
+  }
+  70% {
+    background-image: url('image/yash9.jpeg');
+    /* background-color: white; */
+  }
+  80% {
+    background-image: url('image/yash10.jpeg');
+    /* background-color: white; */
+  }
+  90% {
+    background-image: url('image/yash11.jpeg');
+    /* background-color: white; */
+  }
+  100% {
+    background-image: url('image/yash12.jpeg');
+    /* background-color: white; */
+  }
+}
+
+
+.container1 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+}
+.container3 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: absolute;
+  flex-direction: column;
+  top: 5px;
+}
+
+.message {
+  margin: 25px;
+  text-align: center;
+  /* color: white; */
+  color: #f9f1cc;
+  font-size: 23px;
+  color: #F9f1cc;
+  text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+  animation: glow 1.5s ease-in-out infinite;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0 20vw;
+
+}
+
+.beautiful-text {
+  /* font-family: 'Calligraffitti', cursive; */
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #F9f1cc;
+  text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+  animation: glow 1.5s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+  }
+  50% {
+    text-shadow: 0 0 20px #e74c3c, 0 0 30px #e74c3c, 0 0 40px #e74c3c;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .beautiful-text {
+    font-size: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .beautiful-text {
+    font-size: 80px;
+  }
+}
