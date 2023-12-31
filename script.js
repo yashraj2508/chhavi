@@ -61,7 +61,7 @@ fireworks1.start();
 
 new Snowflakes();
 
-let message = "My Dearest chhavi ,      > sukriya meri life me aane ke liye tu,ahre saath mera bahut memories rahi hai 2023 me wo sb ko yaad kr ke bahut accha lagta hai  i am luckiest man in the earth to have you my girlfriend ,  < lets creates the more memory together > ";
+let message = "My Dearest chhavi ,      > sukriya meri life me aane ke liye< tumahre saath mera bahut memories rahi hai <2023 me wo sb ko yaad kr ke bahut accha lagta hai < i am luckiest man in the earth< to have you my girlfriend< ,  < lets creates the more memory together > ";
 
 
 
